@@ -1,0 +1,13 @@
+name: BoneMace
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  bonemace:
+    description: Gives you the Bone Mace.
+    usage: /bonemace
+    permission: bonemace.give
+permissions:
+  bonemace.give:
+    description: Allows the player to receive the Bone Mace.
+    default: op
